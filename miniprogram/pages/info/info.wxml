@@ -1,0 +1,10 @@
+<view style="height:45px"></view>
+<view>
+  <text style="font-weight: bold;font-size:20px;padding-left:30px">{{distance}}</text>
+</view>
+<view>
+  <text style="font-size:14px;padding-left:30px">{{cost}}</text>
+</view>
+<view class="text_box" wx:for="{{steps}}" wx:key="key">
+  {{item.instruction}}
+</view>

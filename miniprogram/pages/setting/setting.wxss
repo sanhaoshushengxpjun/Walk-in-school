@@ -1,0 +1,69 @@
+.up{ 
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  margin-top: 80px; 
+  line-height:300rpx;
+  width: 70%;
+  border-radius:100rpx;
+  padding-left:33%;
+}
+
+.option {
+  color: #3D3D3D;
+  padding: 20rpx 150rpx;
+  background: transparent;
+  border-bottom: 1px solid #EFF2f7;
+  font-size: 40rpx;
+  margin-top:130rpx;
+  transition: 0.5s;
+  margin-bottom: -100rpx;
+  position: relative;
+  left:30; 
+}
+
+.name
+{
+  text-align: center;
+  padding-top:10px;
+  margin-bottom: 100rpx;
+}
+
+
+.iconPre {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 50%;
+  left: 20rpx;
+  margin-top: -30rpx;
+}
+.right {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  right: 3rpx;
+  margin-top: -10rpx;
+}  
+
+.image {
+  width: 100px;
+  height: 120px;
+  margin: 0 auto;
+  display: block;
+  padding-top:20px;
+  
+} 
+ .background {
+  width: 100%;
+  height: 110%;
+  position:fixed; 
+  z-index: -1;
+  top:0;
+  left:0;
+}   
+
+
+
+

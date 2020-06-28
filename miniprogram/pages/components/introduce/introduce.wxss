@@ -1,0 +1,50 @@
+.section{
+  display: flex;
+  margin: 20rpx;
+  height: 50rpx;
+  margin-top:50rpx;
+  border-bottom: 4px rgba(155, 231, 249, 0.453) dashed;
+  padding: 10rpx;
+  align-items: center;
+  justify-content: space-between;
+  color:#1c3c62;
+}
+.section1{
+  display: flex;
+  margin: 10rpx;
+  height: 50rpx;
+  margin-top:50rpx;
+  border-bottom: 4px rgba(155, 231, 249, 0.453) dashed;
+  padding: 10rpx;
+  justify-content: space-between;
+  color:#1c3c62;
+}
+.section view{
+  margin-right: 20rpx;
+  display: flex;
+}
+.btn-area{
+  margin: 20rpx;
+}
+button{
+  margin: 10rpx 0;
+  
+  }
+
+  .btn-hover{
+    position: relative;
+    top: 3rpx;
+    box-shadow:0px 0px 8px #999 inset; 
+  }
+
+  .rest-hover{
+    position: relative;
+    top: 3rpx;
+    box-shadow:0px 0px 10px #bbbec4 inset; 
+  }
+  .buttonListener
+  {
+    position: relative;
+    top: 3rpx;
+    box-shadow:0px 0px 10px #bbbec4 inset; 
+  }

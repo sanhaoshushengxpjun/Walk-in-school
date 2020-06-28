@@ -1,0 +1,10 @@
+<!--pages/components/jump/jump.wxml-->
+<view class="detail">
+<block wx:for="{{information}}" wx:key="key">
+  <view class="detail-list-item">姓名：{{item.name}}  </view>
+  <view class="detail-list-item">学校：{{item.school}}  </view>
+  <view class="detail-list-item">系别：{{item.dep}}  </view>  
+  <view class="detail-list-item">手机号：{{item.phone}}  </view>
+  <view class="detail-list-item">密码：{{item.pwd}}  </view>
+  <view class="detail-list-item">性别：{{item.sex}}  </view>
+</block></view>

@@ -1,0 +1,30 @@
+<view class="up" wx:if="{{!openid}}">
+  <button open-type="getUserInfo"lang="zh_CN" 
+  bindgetuserinfo="onGotUserInfo"type="primary"style="height:30px">登录</button>
+</view>
+
+<view class="uploader-container" wx:if="{{openid}}">
+  <image class="image" src="{{userinfo.avatarUrl}}"></image>
+  <view class="name">{{userinfo.nickName}}</view>
+</view> 
+
+<view bindtap="introduce" class="option">
+<image src="../../image/sugar.png" class="iconPre"></image>
+个人资料<image src="../../image/right.png" class="right"></image></view>
+
+<view bindtap="advice" class="option">
+<image src="../../image/template.png" class="iconPre"></image>
+意见反馈<image src="../../image/right.png" class="right"></image></view>
+
+<view bindtap="showRank" class="option" >
+<image src="../../image/medal.png" class="iconPre"></image>
+那年今日<image src="../../image/right.png" class="right"></image></view>
+
+<view bindtap="makeSugar" class="option">
+<image src="../../image/new.png" class="iconPre"></image>
+更新日志<image src="../../image/right.png" class="right"></image></view>
+
+<view class="content">
+	<image class='background' src="../../image/1111.png" ></image>
+</view>  
+

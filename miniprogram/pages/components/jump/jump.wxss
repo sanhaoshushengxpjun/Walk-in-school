@@ -1,0 +1,26 @@
+/* miniprogram/pages/detail/detail.wxss */
+.detail{
+  margin: 20rpx;
+  margin-top:100rpx;
+}
+.detail-list-item{
+  height: auto;
+  border-bottom: 4px rgba(155, 231, 249, 0.453) dashed;
+  padding: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color:#1c3c62;
+}
+.detail-list-item text{
+  margin-left: 10%;
+}
+
+.detail-btn{
+  margin-top: 3%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 60%;
+}

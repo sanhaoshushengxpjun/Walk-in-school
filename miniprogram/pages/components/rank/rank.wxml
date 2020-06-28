@@ -1,0 +1,8 @@
+<!--pages/apidata/apidata.wxml-->
+<block wx:for="{{str}}">
+   <van-card
+    desc="{{item.des}}"
+    title="{{item.title}}"
+  />   
+</block>
+  

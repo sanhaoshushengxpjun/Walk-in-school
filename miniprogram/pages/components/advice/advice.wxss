@@ -1,0 +1,7 @@
+.kefu{
+  width: 90%;
+  background: #22ac38;
+  color: #fff;
+  border-radius: 50rpx;
+  margin-top: 80rpx ;
+    }

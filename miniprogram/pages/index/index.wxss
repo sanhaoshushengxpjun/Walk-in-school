@@ -1,0 +1,53 @@
+.date{
+  margin: 30rpx;
+  font-size:40rpx;
+}
+.date_picker{
+  margin-left: 19%;
+  /* border: 1px solid #00dbe9; */
+  width: 70%;
+  font-size: 35rpx;
+  font-weight: bold;
+}
+.chaxun{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00dbe9;
+  width: 70%;
+  height: 90rpx;
+  margin-top: 60rpx;
+  color: white;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.renshu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  width: 70%;
+  height: 90rpx;
+  margin-top: 60rpx;
+  color:black;
+  box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+  font-size:45rpx;
+  font-weight: bold;
+}
+
+.container {
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 80rpx;
+} 
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  z-index: -1;
+  top:0;
+  left:0;
+}  

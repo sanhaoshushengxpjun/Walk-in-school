@@ -1,0 +1,17 @@
+<!--pages/basic/basic.wxml-->
+<view>
+  <view class="title">
+  <text>时间管理</text>
+  </view></view>
+
+<button bindtap="navigateToData1" hover-class="hover" class="btn"style="height:80px" plain="true" > 任务清单</button>
+
+<!-- <button bindtap="navigateToData2" hover-class="hover" class="btn"style="height:80px" plain="true">计时</button> -->
+<button bindtap="navigateToData3" hover-class="hover" class="btn"style="height:80px" plain="true">定时器</button>
+<button bindtap="navigateToData4" hover-class="hover" class="btn"style="height:80px" plain="true">定时器记录</button>
+<button bindtap="navigateToData5" hover-class="hover" class="btn"style="height:80px" plain="true">设置定时器时间</button>
+
+<view class="content">
+	<image class='background' src="../../image/1112.png"
+     ></image>
+</view>

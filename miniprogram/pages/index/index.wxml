@@ -1,0 +1,38 @@
+<!--星期查询-->
+<view class="section">
+    <view class="date">星期选择：</view>
+    <picker bindchange="bindPickerChange0" value="{{multiIndex}}" range="{{multiArray}}" range-key="name" name="starTitle">
+      <view class="date_picker">
+        当前选择:{{multiArray[multiIndex].name}}
+      </view>
+    </picker>
+  </view>
+<!--时间查询-->
+  <view class="section">
+    <view class="date">时间选择：</view>
+    <picker bindchange="bindPickerChange1" value="{{index}}" range="{{array}}" range-key="name" name="timeke">
+      <view class="date_picker">
+        当前选择：{{array[index].name}}
+      </view>
+    </picker>
+  </view>
+   <!--时间管理-->
+ <button class='chaxun'bindtap="navigateToData1" hover-class="hover" >时间管理</button>
+  <!--选择入馆-->
+   <block wx:if="{{!disabled}}">
+   <button class='chaxun' bindtap="add">入馆学习</button>
+   </block>
+  <!--出馆-->
+    <block wx:if="{{disabled}}">
+    <button class='chaxun' bindtap="updata">出馆</button>
+    </block>
+   <!-- 查询结果 -->
+  <block wx:for="{{seats}}" wx:key="key">
+  <button class='chaxun' bindtap="onLoad" >查看</button>
+  <button class='renshu'>在馆人数：{{item.seat}}  </button>
+  </block>
+
+   <view class="content">
+	<image class='background' src="../../image/pic.png"
+     ></image>
+</view>

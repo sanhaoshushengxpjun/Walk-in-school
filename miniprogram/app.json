@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/basic/basic",
+    "pages/more/more",
+    "pages/time/time",
+    "pages/logs/logs",
+    "pages/minute/minute",
+    "pages/map/map",
+    "pages/routes/routes",
+    "pages/info/info",
+    "pages/setting/setting",
+    "pages/components/introduce/introduce",
+    "pages/components/rank/rank",
+    "pages/components/sugar/sugar",
+    "pages/components/jump/jump",
+    "pages/components/advice/advice"
+  ],
+  "window": {
+    "navigationStyle": "default",
+    "backgroundColor": "#8abcd1",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#8abcd1",
+    "navigationBarTitleText": "图书馆人数管理",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "backgroundColor": "#c3d7df",
+    "selectedColor": "#61649f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/indexselect.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "导航",
+        "iconPath": "image/map.png",
+        "selectedIconPath": "image/mapselect.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "我的",
+        "iconPath": "image/user.png",
+        "selectedIconPath": "image/userselect.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

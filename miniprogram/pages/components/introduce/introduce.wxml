@@ -1,0 +1,56 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <!-- <view class="section section_gap">
+    <view class="section__title">是否公开信息</view>
+    <switch name="isPub" />
+  </view> -->
+
+  <view class="section">
+    <view class="section__title">姓名:</view>
+    <input name="name" placeholder=""  bindinput='nameInput'/>
+  </view>
+
+   <view class="section">
+    <view class="section__title">学校:</view>
+    <input name="school" placeholder="" bindinput='schoolInput' />
+  </view>
+
+   <view class="section">
+    <view class="section__title">系别:</view>
+    <input name="dep" placeholder=""  bindinput='depInput'/>
+  </view>
+
+   <view class="section">
+    <view class="section__title">学号:</view>
+    <input name="sid" placeholder=""  bindinput='sidInput'/>
+  </view>
+
+  <view class="section1">
+    <view class="section__title">手机号:</view>
+    <input name="phone" placeholder="请输入正确的手机号码"  bindinput='phoneInput'/>
+  </view>
+
+  <view class="section">
+    <view class="section__title">密码:</view>
+    <input name="pwd" placeholder="" password  bindinput='pwdInput'/>
+  </view>
+  <view class="section section_gap">
+    <view class="section__title">性别</view>
+    <radio-group name="sex" bindchange="radioChange">
+      <label>
+        <radio value="男" checked/>男</label>
+      <label>
+        <radio value="女" />女</label>
+    </radio-group>
+
+  </view>
+  <view class="btn-area">
+    <button bindtap="handlog" type="primary"hover-class="btn-hover">提交</button>
+    <button form-type="reset"type="warn"hover-class="rest-hover">重置</button>
+  </view>
+
+ <button bindtap='buttonListener'>查看</button>
+</form>
+
+ 
+
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-card": "../../vant/card"
+  },
+  "navigationBarTitleText": "那年今日"
+}

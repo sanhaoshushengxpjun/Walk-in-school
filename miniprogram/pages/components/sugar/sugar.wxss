@@ -1,0 +1,20 @@
+
+.text
+{
+  color:black;
+  font-size:40rpx;
+   border: 2rpx;
+   padding:30rpx;
+   position: absolute;
+   margin-top:270px; 
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:absolute; 
+  z-index: -1;
+  top:0;
+  left:0;
+}   
+

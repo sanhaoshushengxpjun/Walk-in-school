@@ -1,0 +1,124 @@
+/* pages/more/more.wxss */
+/*tomorrow.wxss*/
+.container {
+  padding-left: 20rpx;
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+}
+.title {
+  text-align: center;
+  margin: 80rpx 0;
+  font-size: 60rpx;
+  font-style: initial;
+  font-weight: bold;
+}
+.title1{
+  text-align: center;
+  margin: 60rpx 0;
+  font-size: 30rpx;
+  font-style: oblique;
+}
+.title text {
+    border-bottom: 1px double #cccccc;
+    padding-bottom: 10rpx;
+    text-align: center;
+    padding: 0 30rpx 10rpx;    
+}
+.timeBox {
+  margin-bottom: 20rpx;
+  padding-top: 20rpx;
+  display: inline-block;
+}
+.time {
+  display: inline-block;
+}
+picker {
+  display: inline-block;
+}
+.left input {
+  font-size: 40rpx;
+  height: 45rpx;
+  width: 80%;
+}
+.left {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  transition: left 0.2s ease-in-out;
+}
+.right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 4;
+}
+.add {
+  display: inline-block;
+  height: 100%;
+  width: 160rpx;
+  line-height: 150rpx;
+  background: #90CFF0;
+  color: #fff;
+  text-align: center;
+}
+.del {
+  display: inline-block;
+  height: 100%;
+  width: 150rpx;
+  padding-bottom: 100%;
+  line-height: 150rpx;
+  background: #e7413e;
+  color: #fff;
+  text-align: center;
+}
+image {
+  width: 50rpx;
+  height: 50rpx;
+  position: absolute;
+  top: 20rpx;
+}
+.star_first {
+  right: 180rpx;
+}
+.star_second {
+  right: 110rpx;
+}
+.star_third {
+  right: 40rpx;
+}
+.confirm {
+  margin: 20rpx;
+  background-color: #90CFF0;
+  color: #fff;  
+  font-size: 40rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.confirm text {
+  position: relative;
+  right: 0;
+  transition: 0.5s;
+}
+.confirm text:after {
+  content: '\00bb';
+  font-size: 60rpx;
+  position: relative;
+  left: 10rpx;
+  opacity: 0;
+  transition: 0.5s;
+}
+.confirm-hover text:after{
+  left: 50rpx;
+  opacity: 1;
+}
+.confirm-hover text {
+  right: 20rpx;
+}

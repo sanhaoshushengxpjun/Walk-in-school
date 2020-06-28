@@ -1,0 +1,33 @@
+<!--pages/map/map.wxml-->
+<view style="width:100%;height:30px"></view>
+<view class="section">
+  <input bindinput="bindInput" placeholder="查找地址" value="{{keywords}}" />
+</view>
+<view wx:for="{{tips}}" wx:key="index"  wx:if="{{!showview}}" >
+    <!--绑定回填事件-->
+    <view bindtap="backfill" id="{{index}}" wx:if = "{{item.location.length !=0}}" >
+      <!--根据需求渲染相应数据-->
+      <!--渲染地址title-->
+      <view class='item-title' >{{item.name}}</view>
+      <!--渲染详细地址-->
+      <view class='item-details'>{{item.address}}</view>
+      <view class="line"> </view>
+    </view>
+  
+</view> 
+<view class="map_container"  wx:if="{{showview}}" >
+  <map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="16" show-location="true" markers="{{markers}}"
+    bindmarkertap="makertap" controls="{{controls}}" bindcontroltap="clickcontrol" bindtap="mapclick"></map>
+</view>
+
+<view class="map_text" wx:if="{{textData.name && showview}}">
+  <view class="map-1" bindtap="getRoute">
+    <!-- <image src="/img/circle2.png"></image> -->
+    <view>路线</view>
+  </view>
+  <text class="h1">{{textData.name}}</text>
+  <text>{{textData.desc}}</text>
+</view> 
+
+
+   
